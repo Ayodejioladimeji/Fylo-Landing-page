@@ -1,3 +1,56 @@
 /* Write your style here */
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* NAV BAR */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    justify-content: space-between;
+    height: 80px;
+    /* background-color: red; */
+}
+
+ .logo img{
+   height: 40px;
+   width: 130px;
+}
+
+/* main */
+.main {
+    width: 350px;
+    height: 50px;
+    /* background: yellow; */
+}
+
+.main ul li{
+    text-decoration: none;
+    display: flex;
+    float: right;
+    justify-content:right;
+}
+
+.main ul li a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
 /* Create a folder to add your images */
