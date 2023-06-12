@@ -7,16 +7,16 @@
 }
 
 body{
-    background: rgb(233, 18, 18);
-    font-family: 'Raleway', sans-serif;
+    background: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
 }
 
-
+/* HEADER SECTION */
 /* NAV BAR */
 .nav-bar {
     display: flex;
     flex-direction: row;
-    padding: 35px;
+    padding: 40px;
     justify-content: space-between;
     height: 80px;
     /* background-color: red; */
@@ -43,7 +43,7 @@ body{
 
 .main ul li a{
     text-decoration: none;
-    color: rgb(189, 0, 0);
+    color: hsl(243, 87%, 12%);
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -52,6 +52,78 @@ body{
     font-size: 1rem;
 }
 
+/* ============== */
+/* hero section */
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+/* hero left */
+.hero-left {
+    /* background-color: rgb(164, 164, 255); */
+    width: 50%;
+    color: hsl(243, 87%, 12%);
+    padding-top: 50px;
+}
+
+.hero-left h1 {
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 30px;
+}
+
+/* form email */
+.form-email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.form-email input{
+    padding: 10px;
+    font-size: 18px;
+    background: none;
+    border-radius: none;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.form-email button {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.1 linear;
+}
+
+.form-email button:hover {
+    background-color: hsl(243, 87%, 12%);
+}
 
 
+/* hero right */
+
+.hero-right{
+    /* background-color: red; */
+    width: 50%;
+}
+
+.hero-right img {
+    height: 450px;
+}
 
