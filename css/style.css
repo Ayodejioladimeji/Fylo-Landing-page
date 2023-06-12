@@ -7,7 +7,7 @@
 }
 
 body{
-    background: white;
+    background: rgb(233, 18, 18);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -43,7 +43,7 @@ body{
 
 .main ul li a{
     text-decoration: none;
-    color: rgb(43, 43, 43);
+    color: rgb(189, 0, 0);
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -53,4 +53,5 @@ body{
 }
 
 
-/* Create a folder to add your images */
+
+
