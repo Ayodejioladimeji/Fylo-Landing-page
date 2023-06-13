@@ -51,6 +51,13 @@ body{
     padding: 20px;
     font-weight: 600;
     font-size: 1rem;
+    transition: all 0.2 linear;
+}
+
+.main ul a:hover {
+    color: hsl(224, 93%, 58%);
+    font-size: 1.1rem;
+    width: 100%;
 }
 
 /* ============== */
@@ -314,4 +321,105 @@ body{
 
 .access-right button:hover {
     background-color: hsl(170, 45%, 43%);
+}
+
+
+/* ========================= */
+
+/* FOOTER SECTION */
+
+.footer-section {
+    width: 100%;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 40px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+/* footer left */
+.footer-left {
+    padding-bottom: 30px;
+    color: #fff;
+    width: 20%;
+}
+
+.footer-left img {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.footer-left #logo-image {
+    color: #ccc;
+}
+
+.footer-left .contact-icon {
+    display: flex;
+    padding-top: 10px;
+    /* background-color: red; */
+}
+
+.contact-icon img{
+    padding-right: 10px;
+    height: 40px;
+}
+
+.contact-icon p {
+    padding-left: 10px;
+}
+
+/* footer middle 1*/
+
+.footer-middle{
+    display: flex;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-right: 50px;
+    height: 200px;
+    width: 50%;
+    margin-left: -50px;
+    /* background-color: red; */
+    justify-content: space-around;
+}
+
+.footer-middle-1 ul li {
+    list-style: none;
+    line-height: 50px;
+}
+
+.footer-middle-1 ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-middle-1 a:hover {
+    text-decoration: underline;
+}
+
+/* footer right */
+.footer-right {
+    padding-top: 80px;
+    padding-right: 130px;
+}
+
+.footer-right .fa-brands {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.2 linear;
+    cursor: pointer;
+}
+
+.fa-brands .fa-facebook {
+    border-radius: 50%;
+}
+
+.footer-right .fa-brands:hover {
+    background-color: white;
+    color: hsl(243, 87%, 12%);
+    font-weight: 500;
+
 }
