@@ -137,7 +137,7 @@ body{
 .productive-section {
     display: flex;
     flex-direction: row;
-    margin: 80px 0;
+    margin-top: 80px;
     padding: 70px 40px;
     background: url(/images/bg-curve-desktop.svg) no-repeat center center/cover;
 }
@@ -192,7 +192,7 @@ body{
 .quote-section {
     padding: 20px 30px;
     margin: 20px 0;
-    background-color: white;
+    background-color: #fff;
     color: hsl(243, 87%, 12%);
     width: 430px;
     height: 250px;
@@ -245,4 +245,73 @@ body{
 
 .productive-right img {
     height: 400px;
+}
+
+
+
+/* ====================== */
+
+/* Access Section */
+
+.access-section {
+    width: 100%;
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    padding: 40px;
+}
+
+/* access left */
+.access-left {
+    width: 50%;
+}
+
+.access-left h3 {
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.access-left p {
+    font-size: 1rem;
+    padding-right: 120px;
+    line-height: 25px;
+}
+
+
+/* access right */
+
+.access-right {
+    width: 50%;
+    margin: 30px 20px;
+}
+
+.access-right input {
+    padding: 12px;
+    width: 70%;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.access-right button {
+    padding: 12px;
+    width: 30%;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 93%, 58%);
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1 linear;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+
+.access-right button:hover {
+    background-color: hsl(170, 45%, 43%);
 }
