@@ -25,6 +25,7 @@ body{
  .logo img{
    height: 40px;
    width: 130px;
+   cursor: pointer;
 }
 
 /* main */
@@ -48,7 +49,7 @@ body{
     flex-direction: row-reverse;
     justify-content: center;
     padding: 20px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
 }
 
@@ -97,6 +98,7 @@ body{
     border-radius: none;
     width: 300px;
     margin-right: 10px;
+    border: px solid hsl(238, 22%, 44%);
 }
 
 .form-email button {
@@ -112,7 +114,7 @@ body{
 }
 
 .form-email button:hover {
-    background-color: hsl(243, 87%, 12%);
+    background-color: hsl(170, 45%, 43%);
 }
 
 
@@ -127,3 +129,120 @@ body{
     height: 450px;
 }
 
+
+/* ======================= */
+
+/* productive section */
+
+.productive-section {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 0;
+    padding: 70px 40px;
+    background: url(/images/bg-curve-desktop.svg) no-repeat center center/cover;
+}
+
+/* Productive  left */
+
+.productive-left {
+    width: 50%;
+    color: hsl(243, 87%, 12%);
+}
+
+.productive-left h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+}
+
+.productive-left p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+/* fylo link */
+.fylo-link {
+    padding-top: 20px;
+    transition: 0.1 hover;
+    position: static;
+}
+
+.fylo-link a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    font-size: 1.2rem;
+}
+
+.fylo-link img {
+    height: 25px;
+    color: hsl(170, 45%, 43%);
+    cursor: pointer;
+}
+
+.fylo-link:hover {
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    width: 210px;
+}
+
+
+/* quote section */
+.quote-section {
+    padding: 20px 30px;
+    margin: 20px 0;
+    background-color: white;
+    color: hsl(243, 87%, 12%);
+    width: 430px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.quote-section .quote img {
+    padding-bottom: 10px;
+    height: 30px;
+}
+
+.quote-section .quote p{
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* founder section */
+
+.founder-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.founder-section img {
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.founder-section .founder-name {
+    padding-left: 10px;
+}
+
+.founder-name p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* Productive right */
+
+.productive-right {
+    width: 50%;
+    padding: 30px;
+    align-items: center;
+}
+
+.productive-right img {
+    height: 400px;
+}
