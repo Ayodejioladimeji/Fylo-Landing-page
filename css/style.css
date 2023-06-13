@@ -25,6 +25,7 @@ body{
  .logo img{
    height: 40px;
    width: 130px;
+   cursor: pointer;
 }
 
 /* main */
@@ -48,8 +49,15 @@ body{
     flex-direction: row-reverse;
     justify-content: center;
     padding: 20px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
+    transition: all 0.2 linear;
+}
+
+.main ul a:hover {
+    color: hsl(224, 93%, 58%);
+    font-size: 1.1rem;
+    width: 100%;
 }
 
 /* ============== */
@@ -97,6 +105,7 @@ body{
     border-radius: none;
     width: 300px;
     margin-right: 10px;
+    border: px solid hsl(238, 22%, 44%);
 }
 
 .form-email button {
@@ -112,7 +121,7 @@ body{
 }
 
 .form-email button:hover {
-    background-color: hsl(243, 87%, 12%);
+    background-color: hsl(170, 45%, 43%);
 }
 
 
@@ -127,3 +136,290 @@ body{
     height: 450px;
 }
 
+
+/* ======================= */
+
+/* productive section */
+
+.productive-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    padding: 70px 40px;
+    background: url(/images/bg-curve-desktop.svg) no-repeat center center/cover;
+}
+
+/* Productive  left */
+
+.productive-left {
+    width: 50%;
+    color: hsl(243, 87%, 12%);
+}
+
+.productive-left h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+}
+
+.productive-left p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+/* fylo link */
+.fylo-link {
+    padding-top: 20px;
+    transition: 0.1 hover;
+    position: static;
+}
+
+.fylo-link a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    font-size: 1.2rem;
+}
+
+.fylo-link img {
+    height: 25px;
+    color: hsl(170, 45%, 43%);
+    cursor: pointer;
+}
+
+.fylo-link:hover {
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    width: 210px;
+}
+
+
+/* quote section */
+.quote-section {
+    padding: 20px 30px;
+    margin: 20px 0;
+    background-color: #fff;
+    color: hsl(243, 87%, 12%);
+    width: 430px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.quote-section .quote img {
+    padding-bottom: 10px;
+    height: 30px;
+}
+
+.quote-section .quote p{
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* founder section */
+
+.founder-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.founder-section img {
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.founder-section .founder-name {
+    padding-left: 10px;
+}
+
+.founder-name p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* Productive right */
+
+.productive-right {
+    width: 50%;
+    padding: 30px;
+    align-items: center;
+}
+
+.productive-right img {
+    height: 400px;
+}
+
+
+
+/* ====================== */
+
+/* Access Section */
+
+.access-section {
+    width: 100%;
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    padding: 40px;
+}
+
+/* access left */
+.access-left {
+    width: 50%;
+}
+
+.access-left h3 {
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.access-left p {
+    font-size: 1rem;
+    padding-right: 120px;
+    line-height: 25px;
+}
+
+
+/* access right */
+
+.access-right {
+    width: 50%;
+    margin: 30px 20px;
+}
+
+.access-right input {
+    padding: 12px;
+    width: 70%;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.access-right button {
+    padding: 12px;
+    width: 30%;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 93%, 58%);
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1 linear;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+
+.access-right button:hover {
+    background-color: hsl(170, 45%, 43%);
+}
+
+
+/* ========================= */
+
+/* FOOTER SECTION */
+
+.footer-section {
+    width: 100%;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 40px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+/* footer left */
+.footer-left {
+    padding-bottom: 30px;
+    color: #fff;
+    width: 20%;
+}
+
+.footer-left img {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.footer-left #logo-image {
+    color: #ccc;
+}
+
+.footer-left .contact-icon {
+    display: flex;
+    padding-top: 10px;
+    /* background-color: red; */
+}
+
+.contact-icon img{
+    padding-right: 10px;
+    height: 40px;
+}
+
+.contact-icon p {
+    padding-left: 10px;
+}
+
+/* footer middle 1*/
+
+.footer-middle{
+    display: flex;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-right: 50px;
+    height: 200px;
+    width: 50%;
+    margin-left: -50px;
+    /* background-color: red; */
+    justify-content: space-around;
+}
+
+.footer-middle-1 ul li {
+    list-style: none;
+    line-height: 50px;
+}
+
+.footer-middle-1 ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-middle-1 a:hover {
+    text-decoration: underline;
+}
+
+/* footer right */
+.footer-right {
+    padding-top: 80px;
+    padding-right: 130px;
+}
+
+.footer-right .fa-brands {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.2 linear;
+    cursor: pointer;
+}
+
+.fa-brands .fa-facebook {
+    border-radius: 50%;
+}
+
+.footer-right .fa-brands:hover {
+    background-color: white;
+    color: hsl(243, 87%, 12%);
+    font-weight: 500;
+
+}
