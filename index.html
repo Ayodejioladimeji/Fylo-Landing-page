@@ -11,7 +11,9 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./responsive.css">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway" />
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans" />
 
@@ -22,9 +24,13 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        height: 30px;
+        background-color: rgb(202, 202, 202);
+        padding-top: 10px;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
+        padding-top: 30px;
       }
     </style>
   </head>
@@ -60,7 +66,8 @@
           and co-workers.
         </p>
         <!-- form-email -->
-        <form action="#" class="form-email">
+        <div class="form-email">
+        <form action="#">
           <input
             type="email"
             id="email"
@@ -71,6 +78,7 @@
         </form>
         <!-- btn -->
         <button id="btn">Get Started</button>
+      </div>
       </div>
 
       <!-- hero-right -->
@@ -85,23 +93,24 @@
     <section class="productive-section">
       <!---=======productive-left --========--->
       <div class="productive-left">
-        <h2>Stay productive, wherever you are</h2>
+        <h1>Stay productive, wherever you are</h1>
         <p>
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.
           <br />
+          <br>
           Securely share files and folders with friends, family and colleagues
           for live collaboration. No email attachments required!
         </p>
 
         <!-- fylo-link -->
         <div class="fylo-link">
-          <a href="#btn"> See how Fylo works</a>
-          <img src="./images/icon-arrow.svg" alt="arrow" />
+          <a href="#btn"> See how Fylo works <img src="./images/icon-arrow.svg" alt="arrow" /></a>
         </div>
 
         <!-- quote-section -->
         <div class="quote-section">
+          <div class="quote">
           <img src="./images/icon-quotes.svg" alt="quote-icon" />
           <p>
             Fylo has improved our team productivity by an order of magnitude.
@@ -110,7 +119,7 @@
           </p>
         </div>
 
-        <!-- founder-section -->
+            <!-- founder-section -->
         <div class="founder-section">
           <img src="./images/avatar-testimonial.jpg" alt="image" />
           <div class="founder-name">
@@ -119,6 +128,9 @@
           </div>
         </div>
       </div>
+        </div>
+
+      
 
       <!---=======productive-right --========--->
       <div class="productive-right">
@@ -141,7 +153,7 @@
 
       <!--===== access-right==== -->
       <div class="access-right">
-        <form action="#" class="access-email">
+        <form action="#">
           <input
             type="email"
             id="email"
@@ -159,7 +171,7 @@
     <footer class="footer-section">
       <!-- footer-left -->
       <div class="footer-left">
-        <img src="./images/logo.svg" alt="logo" />
+        <img src="./images/logo.svg" id="logo-image" alt="logo" />
         <!-- contact-icon -->
         <div class="contact-icon">
           <img src="./images/icon-phone.svg" alt="phone" />
@@ -171,7 +183,7 @@
           <p>example@fylo.com</p>
         </div>
       </div>
-
+    <div class="footer-middle">
       <!-- footer-middle 1-->
       <div class="footer-middle-1">
         <ul>
@@ -183,13 +195,14 @@
       </div>
 
       <!-- footer-middle 2-->
-      <div class="footer-middle-2">
+      <div class="footer-middle-1">
         <ul>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Terms</a></li>
           <li><a href="#">Privacy</a></li>
         </ul>
       </div>
+    </div>
 
       <!-- footer-right-->
       <div class="footer-right">
@@ -197,16 +210,15 @@
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-instagram"></i>
       </div>
-
-      <!-- attribution-->
-      <div class="attribution">
-        <p>
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">AYODEJI ABOLAJI ALFRED</a>.
-        </p>
-      </div>
     </footer>
+    <!-- attribution-->
+    <div class="attribution">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">AYODEJI ABOLAJI ALFRED</a>.
+      </p>
+    </div>
   </body>
 </html>

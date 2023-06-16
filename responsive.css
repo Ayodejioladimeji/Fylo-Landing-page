@@ -1,0 +1,336 @@
+/* Min Width of 1024px */
+
+@media (max-width: 1024px){
+    .header {
+        width: 100%;
+    }
+    .nav-bar {
+        width: 100%;
+    }
+
+    .main {
+        margin: -5px 10px;
+       
+    }
+
+    .main ul li a{
+        font-size: 1rem;
+    }
+
+    .logo img {
+        margin-left: 10px;
+    }
+
+    /* hero section */
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+.hero-right img{
+    padding: 10px 0;
+    height: 350px;
+}
+    .hero-left {
+        text-align: center;
+        padding: 40px 0px;
+        width: 80%;
+        margin: 20px;
+    }
+
+    .hero-left h1 {
+        padding-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .hero-left p {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    /* form email */
+    .form-email {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-email input {
+        width: 400px;
+        margin-right: 10px;
+        padding: 20px;
+    }
+
+    .form-email button {
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* Productive section */
+
+    .productive-section {
+        width: 100%;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .productive-left {
+        text-align: center;
+        width: 80%;
+    }
+   
+    .productive-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .quote-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .founder-section {
+       justify-content: center;
+    }
+
+    .founder-section .founder-name {
+        padding-left: 20px;
+        text-align: left;
+    }
+
+/* access section */
+.access-section {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.access-right {
+    width: 40%;
+    margin: 30px 0px;
+}
+
+.access-right input {
+    width: 90%;
+}
+
+.access-right button {
+    width: 50%;
+}
+/* footer */
+
+.footer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+.footer-left {
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+.footer-middle {
+margin-top: 5px;
+}
+
+.footer-right {
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 0;
+}
+
+.attribution {
+   display: none;
+
+}
+}
+
+/* ============================== */
+/* Max Width of 768 */
+
+@media (max-width: 768px) {
+
+    .access-left {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .access-left h3{
+        font-size: 1.5rem;
+    }
+
+    .access-left p {
+        font-size: 0.8rem;
+        padding-right: 30px;
+    }
+
+    .access-right {
+        width: 50%;
+    }
+}
+
+
+/* ================ */
+/* MaxWidth of 427px */
+
+@media (max-width: 425px) {
+   .header {
+    width: 100%;
+   }
+
+   .nav-bar {
+    width: 600px;
+   }
+
+   .hero-section {
+    width: 100%;
+   }
+
+   .hero-right  {
+    align-self: center;
+    width: 80%;
+    padding: 10px 20px;
+   }
+
+   .hero-left {
+    text-align: center;
+    width: 600px;
+    align-items: center;
+    /* background-color: red; */
+    margin-left: 160px;
+    padding: 0 40px;
+   }
+.hero-left h1 {
+    width: 100%;
+    font-size: 2.2rem;
+    padding: 20px 40px;
+}
+   .form-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+   }
+
+   .form-email input {
+    width: 450px;
+   }
+   .form-email button {
+    margin-top: 15px;
+    width: 450px;
+    margin-right: 12px;
+   }
+
+   .productive-section {
+    width: 600px;
+   }
+
+   .productive-right {
+    width: 100%;
+    margin: 0 20px;
+   }
+
+   .productive-left {
+    width: 100%;
+    padding: 20px;
+   }
+
+
+   .access-section {
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+   }
+
+   .access-left  {
+    width: 100%;
+    padding: 0 70px;
+   }
+
+   .access-left p {
+    font-size: 1rem;
+   }
+
+   .access-right {
+    width: 100%;
+   }
+   .access-right input {
+    width: 70%;
+    padding: 20px;
+   }
+
+   .access-right button {
+    width: 70%;
+    padding: 20px;
+    font-size: 1.2rem;
+   }
+
+   .footer-section {
+    width: 600px;
+   }
+
+   .footer-left{
+    margin-bottom: 80px;
+   }
+
+   .footer-middle {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+   }
+
+   .footer-middle-1 {
+    margin: 20px 0;
+   }
+
+   .footer-right {
+    padding-top: 100px;
+   }
+}
+
+
+
+/* ================ */
+/* MaxWidth of 375px */
+
+@media (max-width: 375px) {
+    .hero-section {
+        width: 100%;
+        align-items: center;
+    }
+
+    .hero-left {
+        width: 600px;
+        padding-left: 130px
+    }
+
+    .hero-left h1 {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .form-email button {
+        margin-left: -5px;
+    }
+
+}
+
+
+/* ================ */
+/* MaxWidth of 280px */
+
