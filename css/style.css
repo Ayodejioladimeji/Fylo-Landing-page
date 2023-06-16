@@ -349,7 +349,7 @@ body{
 }
 
 .footer-left img {
-    color: #fff;
+    filter: invert(80%) sepia(100%) saturate(100%) hue-rotate(216deg) brightness(200%) contrast(150%);
     padding-bottom: 20px;
 }
 
